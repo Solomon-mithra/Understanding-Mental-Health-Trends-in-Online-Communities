@@ -1,0 +1,7 @@
+streamlit
+pandas
+altair
+requests
+langchain
+langchain-core
+langchain-groq
