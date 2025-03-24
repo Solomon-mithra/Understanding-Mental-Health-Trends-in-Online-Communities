@@ -11,7 +11,7 @@ from langchain_groq import ChatGroq
 # Configuration for Groq API
 # -------------------------------
 GROQ_SUMMARIZATION_URL = "https://api.groq.com/v1/summarization"  
-GROQ_API_KEY = st.secrets["GROQ"]["API_KEY"]  # Ensure your secrets.toml has this key
+GROQ_API_KEY = st.secrets["API_KEY"]  # Ensure your secrets.toml has this key
 model = "llama3-8b-8192"  # Define the model here; adjust as needed
 
 # -------------------------------
